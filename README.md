@@ -75,3 +75,55 @@ As the simulation runs, the robot should move based on detected ArUco markers.
 1. [Robot Simulation in Virtual World](link_to_video1)
 2. [Robot Operation in Real World](link_to_video2)
 
+
+
+
+
+
+## Running Nodes Separately
+
+In some scenarios, you may want to launch specific nodes individually. Below are the commands to launch Gazebo, RViz, and each node separately.
+
+### Launching Gazebo:
+
+```bash
+roslaunch assignment1_exp_rob_lab MarkerBasedNavigation.launch
+```
+
+This command launches Gazebo along with other necessary nodes. You can observe the robot's simulated environment in Gazebo.
+
+### Launching RViz for Visualization:
+
+```bash
+rosrun rviz rviz -d /path/to/assignment1_exp_rob_lab/config/rvizconfig.rviz
+```
+
+This command launches RViz and loads the configuration file for visualization. You can observe camera images, ArUco markers, and the robot model in RViz.
+
+### Running ArUco Marker Extraction Node:
+
+```bash
+roslaunch assignment1_exp_rob_lab MarkerBasedNavigation.launch
+```
+
+Uncomment the ArUco marker extraction node lines in `MarkerBasedNavigation.launch` if you want to run this node separately. Save the file and relaunch the package.
+
+### Running Robot Navigation Node:
+
+```bash
+rosrun assignment1_exp_rob_lab MarkerBasedNavigation.py
+```
+
+If you want to run only the robot navigation node without Gazebo or RViz, use this command.
+
+Make sure to source your workspace before running any of the above commands:
+
+```bash
+source devel/setup.bash
+```
+ ### Students:
+Bernard Maacaron
+Ines Haouala
+Benkredda Roumaissa
+Karim Triki
+----
