@@ -122,8 +122,9 @@ Make sure to source your workspace before running any of the above commands:
 source devel/setup.bash
 ```
  ### Students:
-Bernard Maacaron
-Ines Haouala
-Benkredda Roumaissa
-Karim Triki
+
+- Bernard Maacaron
+- Ines Haouala
+- Benkredda Roumaissa
+- Karim Triki
 ----
