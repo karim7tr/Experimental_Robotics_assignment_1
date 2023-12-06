@@ -1,0 +1,23 @@
+<!-- MarkerBasedNavigation_Full.launch -->
+
+<launch>
+
+  <!-- Launch the Gazebo empty world with the specified world file -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="world_name" value="$(find assignment1_exp_rob_lab)/worlds/aruco_assignment.world"/>
+  </include>
+
+  <!-- Launch the rosbot_bringup package -->
+  <include file="$(find rosbot_bringup)/launch/rosbot_gazebo.launch"/>
+
+  <!-- OPTIONAL -->
+  <!-- Run the ArUcoMarkerExtractor.py Python script -->
+  <node name="ArUcoMarkerExtractor" pkg="assignment1_exp_rob_lab" type="ArUcoMarkerExtractor.py" output="screen"/>
+
+  <!-- LAUNCHING RVIZ TO SEE THE CAMERA OUTPUT AND MODELS --> 
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find assignment1_exp_rob_lab)/config/rvizconfig.rviz"/>
+
+  <!-- Run the MarkerBasedNavigation.py Python script -->
+  <node name="MarkerBasedNavigation" pkg="assignment1_exp_rob_lab" type="MarkerBasedNavigation.py" output="screen"/>
+
+</launch>

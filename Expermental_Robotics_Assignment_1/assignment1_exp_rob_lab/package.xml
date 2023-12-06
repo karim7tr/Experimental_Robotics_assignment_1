@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>assignment1_exp_rob_lab</name>
+  <version>0.0.1</version>
+  <description>Package submission for assignment 1 of the Experimental Robotics Lab at UniGe 2023-2024</description>
+
+  <!-- Maintainer information -->
+  <maintainer email="bernard_maacaron@hotmail.com">Bernard Maacaron</maintainer>
+
+  <!-- License information -->
+  <license>MIT</license>
+
+  <!-- ROS dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>aruco_ros</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+  <build_depend>gazebo_msgs</build_depend>
+
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>aruco_ros</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>gazebo_msgs</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+
+
+
+
+  <!-- Other package dependencies -->
+  <!-- Add any additional dependencies here -->
+
+  <!-- Package exports and settings -->
+  <export>
+    <!-- The following exports are only needed if you have Python scripts or launch files -->
+    <build_type>catkin</build_type>
+    <exec_depend>roscpp</exec_depend>
+    <exec_depend>rospy</exec_depend>
+    <exec_depend>sensor_msgs</exec_depend>
+    <exec_depend>cv_bridge</exec_depend>
+    <exec_depend>aruco_ros</exec_depend>
+  </export>
+</package>
