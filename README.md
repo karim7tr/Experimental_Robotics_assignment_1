@@ -65,7 +65,7 @@ As the simulation runs, the robot should move based on detected ArUco markers.
 
 ## Additional Resources
 
-### Flowchart(s)
+### Flowchart
 
 ![Alt Text](Media/flowchart.jpg)
 
