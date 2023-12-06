@@ -72,7 +72,9 @@ As the simulation runs, the robot should move based on detected ArUco markers.
 
 ### Videos
 
-1. [![Robot Simulation in Virtual World](https://www.youtube.com/watch?v=BtmkZhMgc60)]
+1. [![Robot Simulation in Virtual World](https://img.youtube.com/vi/www.youtube.com/watch?v=BtmkZhMgc60/maxresdefault.jpg)]
+https://
+
 2. [Robot Operation in Real World](https://www.youtube.com/watch?v=yqYEHiH5nfU)
 
 
