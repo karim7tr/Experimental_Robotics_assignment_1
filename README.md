@@ -132,6 +132,33 @@ Make sure to source your workspace before running any of the above commands:
 ```bash
 source devel/setup.bash
 ```
+---
+
+## Future Improvements
+
+This package provides a foundation for marker-based navigation in a simulated environment. However, there are several areas where improvements and enhancements can be made to further enhance its capabilities:
+
+### 1. **Localization Enhancement:**
+   - Improve the robot's localization accuracy by exploring advanced localization algorithms or techniques.
+
+### 2. **Mapping Strategies:**
+   - Implement more sophisticated mapping strategies to create a more detailed and accurate map of the environment.
+
+### 3. **Dynamic Obstacle Avoidance:**
+   - Integrate algorithms for dynamic obstacle avoidance to make the robot more adaptive in dynamic environments.
+
+### 4. **Human-Robot Interaction:**
+   - Explore methods to enable the robot to interact with humans or respond to specific human gestures or commands.
+
+### 5. **Real-World Deployment:**
+   - Extend the capabilities to seamlessly transition from simulation to real-world deployment by addressing hardware-specific considerations.
+
+### 6. **Optimization:**
+   - Optimize code and algorithms for improved efficiency, ensuring the package runs smoothly in real-time applications.
+
+Contributions and enhancements are welcome! Feel free to fork the repository, implement improvements, and submit pull requests to contribute to the continuous development of this package.
+
+---
  ### Students:
 
 - Bernard Maacaron
